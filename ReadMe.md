@@ -15,9 +15,9 @@ Similar to `tapCounter`, but able to handle long press.
 First try on *MVVM* approach.  
 
 ## customViewPractice
-`2021/3/25`. 
-Practice to create a custom view. 
+`2021/3/25`\
+Practice to create a custom view
 
 ## todoList
-`2021/3/25`. 
-Not implement yet. 
+`2021/3/25`\
+Not implement yet
