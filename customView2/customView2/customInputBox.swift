@@ -9,20 +9,21 @@ import UIKit
 
 class CustomInputBox: UIView {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet var titleLabel: UILabel!
     
 
     @IBOutlet weak var inputBox: UITextField!
     @IBOutlet weak var bottomLine: UIView!
     
+    var title: String?
 
     
 
-    override init(frame: CGRect){
+    init(frame: CGRect, title: String?){
         super.init(frame: frame)
         commonInit()
-        
-        
+        self.title = title
+        titleLabel.text = "a"
     }
     required init?(coder: NSCoder){
         super.init(coder: coder)

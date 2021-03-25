@@ -14,6 +14,7 @@ class CustomView: UIView {
         super.init(frame: frame)
         commonInit()
     }
+    
     required init?(coder: NSCoder){
         super.init(coder: coder)
     }

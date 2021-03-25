@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var numberLabel: UILabel!
     
-    
     @IBOutlet weak var addBtn: UIButton!
     
     @IBOutlet weak var clearBtn: UIButton!
